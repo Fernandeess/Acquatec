@@ -9,6 +9,12 @@ body {
   border-bottom: solid 3px #32b9cd;
   /* border: solid 3px green; */
 }
+.header a {
+  color: #32b9cd;
+  text-decoration: none;
+  
+  /* border: solid 3px green; */
+}
 
 .container {
   /* border: solid 3px yellow; */
@@ -32,6 +38,13 @@ body {
 .navbar a {
   color: #e3b062;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+#onhere{
+  font-size: 18px;
+  color: #32b9cd;  
+  font-weight: 1000;
 }
 .navbar :hover{
     color: #32b9cd;
@@ -40,7 +53,7 @@ body {
 .banner {
   color: white;
   padding: 40px 0;
-  height: 400px;
+  height: 80vh;
   background-image: url("assets/imgs/bg-jelly-fish-para-home.png");
   background-size: cover;
 }
@@ -48,12 +61,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height:80vh;
 }
-.banner p {
-  font-size: 36px;
 
-  width: 280px;
+.banner p {
+  font-size: 60px;
+  width: 340px;
 }
 .banner p span {
   font-weight: bold;
